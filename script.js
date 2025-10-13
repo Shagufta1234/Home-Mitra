@@ -8,11 +8,11 @@ menuToggle?.addEventListener('click', () => {
     // Animate hamburger menu
     const spans = menuToggle.querySelectorAll('span');
     spans[0].style.transform = navLinks.classList.contains('active')
-        ? 'rotate(45deg) translateY(8px)'
+        ? 'rotate(48deg) translateY(8px)'
         : 'none';
     spans[1].style.opacity = navLinks.classList.contains('active') ? '0' : '1';
     spans[2].style.transform = navLinks.classList.contains('active')
-        ? 'rotate(-45deg) translateY(-8px)'
+        ? 'rotate(-48deg) translateY(-8px)'
         : 'none';
 });
 
