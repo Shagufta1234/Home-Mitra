@@ -1,117 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Mitra - Beyond Handmade, It's Homegrown Passion</title>
-    <link rel="icon" type="image/png" href="images/favicon.ico">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home Mitra</title>
+  <link rel="icon" type="image/png" href="images/favicon.ico">
+  <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <main>
-        <div class="glass-container">
-            <header class="header">
-                <nav class="navbar">
-                    <button class="menu-toggle" aria-label="Toggle menu">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </button>
-                    <ul class="nav-links">
-                        <li><a href="pages/about.html">About Us</a></li>
-                        <li><a href="pages/story.html">Story</a></li>
-                        <li><a href="pages/bts.html">BTS</a></li>
-                        <li><a href="pages/contact.html">Contact Us</a></li>
-                    </ul>
-                    <div class="search-container">
-                        <input type="text" class="search-input" placeholder="Search..">
-                        <button class="search-btn" aria-label="Search">
-                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <circle cx="11" cy="11" r="8"/>
-                                <path d="m21 21-4.35-4.35"/>
-                            </svg>
-                        </button>
-                    </div>
-                </nav>
-            </header>
-            <section class="hero">
-                <div class="hero-content">
-                    <h1 class="hero-title">
-                        <span>Beyond Handmade,&nbsp;It's</span>
-                        <span>Homegrown Passion</span>
-                    </h1>
-                    <p class="hero-subtitle">Handmade for Now, Memories for Ahead.</p>
-                </div>
-            </section>
 
-            <section class="products">
-                <div class="products-grid">
-                    <article class="product-card" data-category="shabby-chic">
-                        <div class="product-image">
-                            <img src="images/shabby_chic.jpg" alt="Shabby Chic artwork">
-                        </div>
-                        <div class="product-info">
-                            <div class="product-copy">
-                                <h2>Shabby<br>Chic</h2>
-                            </div>
-                            <div class="product-cta">
-                                <a href="#shabby-chic" class="product-link" aria-label="View Shabby Chic collection">
-                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                        <polyline points="9 18 15 12 9 6"/>
-                                    </svg>
-                                </a>
-                            </div>
-                        </div>
-                    </article>
+  <header>
+    <div class="logo-section">
+      <img src="images/logo.jpg" alt="Logo" />
+    </div>
 
-                    <article class="product-card" data-category="resin-art">
-                        <div class="product-image">
-                            <img src="images/resin_art.jpg" alt="Resin Art">
-                        </div>
-                        <div class="product-info">
-                            <div class="product-copy">
-                                <h2>Resin<br>Art</h2>
-                            </div>
-                            <div class="product-cta">
-                                <a href="#resin-art" class="product-link" aria-label="View Resin Art collection">
-                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                        <polyline points="9 18 15 12 9 6"/>
-                                    </svg>
-                                </a>
-                            </div>
-                        </div>
-                    </article>
+    <nav>
+      <ul>
+        <li><a href="pages/about.html">About Us</a></li>
+        <li><a href="pages/story.html">Story</a></li>
+        <li><a href="pages/bts.html">BTS</a></li>
+        <li><a href="pages/contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
 
-                    <article class="product-card" data-category="lippan-art">
-                        <div class="product-image">
-                            <img src="images/lippan_art.jpg" alt="Lippan Art">
-                        </div>
-                        <div class="product-info">
-                            <div class="product-copy">
-                                <h2>Lippan<br>Art</h2>
-                            </div>
-                            <div class="product-cta">
-                                <a href="#lippan-art" class="product-link" aria-label="View Lippan Art collection">
-                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                        <polyline points="9 18 15 12 9 6"/>
-                                    </svg>
-                                </a>
-                            </div>
-                        </div>
-                    </article>
-                </div>
+    <div class="icons">
+      <!-- Cart Icon -->
+      <svg id="cart-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.8"
+        stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round"
+          d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13l-1.2 6h12.4L17 13M7 13L5.4 5M17 13l1.6 6M9 21a1 1 0 110-2 1 1 0 010 2zm8 0a1 1 0 110-2 1 1 0 010 2z" />
+      </svg>
 
-                <button class="view-more-btn">
-                    View More
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <polyline points="9 18 15 12 9 6"/>
-                    </svg>
-                </button>
-            </section>
-        </div>
-    </main>
+      <!-- Cart Dropdown -->
+      <div class="cart-dropdown" id="cart-dropdown">
+        <h4>Shop by Category</h4>
+        <h4>Handmade</h4>
+        <ul>
+          <li>Crochet</li>
+          <li>Resin</li>
+          <li>Lippan</li>
+          <li>Mosaic</li>
+          <li>Shabby Chic</li>
+          <li>Vintage Crafts</li>
+          <li>MDF Crafts</li>
+          <li>Sewing Crafts</li>
+          <li>Macrame</li>
+          <li>Embroidery</li>
+        </ul>
+        <h4>Art and Craft Supplies</h4>
+        <ul>
+          <li>Resin Kit for Beginners</li>
+          <li>Journal Supplies</li>
+          <li>Scrapbooking Supplies</li>
+          <li>Glitters</li>
+          <li>Laces</li>
+          <li>Beads</li>
+        </ul>
+      </div>
 
-    <script src="script.js"></script>
+      <!-- Search Icon -->
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round"
+          d="M21 21l-4.35-4.35M17 10.5A6.5 6.5 0 104.5 17 6.5 6.5 0 0017 10.5z" />
+      </svg>
+
+      <div class="hamburger">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero">
+    <h1>Beyond Handmade,<br>It’s Homegrown Passion</h1>
+    <p>Handmade for Now, Memories for Ahead.</p>
+    <button>Shop Now</button>
+  </section>
+
+  <section class="cards">
+    <div class="card">
+      <img src="images/resin_art.jpg" alt="Resin Art">
+      <p>Resin Art</p>
+    </div>
+    <div class="card">
+      <img src="images/lippan_art.jpg" alt="Lippan Art">
+      <p>Lippan Art</p>
+    </div>
+    <div class="card">
+      <img src="images/shabby_chic.jpg" alt="Shabby Chic">
+      <p>Shabby Chic</p>
+    </div>
+  </section>
+
+  <!-- <section class="hero">
+    <button>View More</button>
+  </section> -->
+  <footer class="footer">
+    <div class="footer-content">
+      <h2>Home Mitra</h2>
+      <p>Bringing timeless art and home décor to life.</p>
+
+      <p>Follow Home Mitra on Instagram and YouTube for our latest creations.</p>
+      <div class="social">
+        <a href="https://www.instagram.com/home_mitra?igsh=OGVlNzlpdnpwcTgy" title="Instagram" aria-label="Instagram">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+            <rect x="2.5" y="2.5" width="19" height="19" rx="5" stroke="#4b3b36" stroke-width="1.2" />
+            <path d="M16.5 7.5h.01" stroke="#4b3b36" stroke-width="1.4" stroke-linecap="round" />
+            <path d="M15 12.2a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" stroke="#4b3b36" stroke-width="1.2" stroke-linecap="round"
+              stroke-linejoin="round" />
+          </svg>
+        </a>
+
+        <a href="https://youtube.com/@home_mitra?si=1oGCM_lJchJNi71o" title="YouTube" aria-label="YouTube">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+            <rect x="2" y="4" width="20" height="16" rx="3" stroke="#4b3b36" stroke-width="1.2" />
+            <polygon points="10,9 16,12 10,15" stroke="#4b3b36" stroke-width="1.2" fill="none" stroke-linejoin="round"
+              stroke-linecap="round" />
+          </svg>
+        </a>
+      </div>
+
+      <p class="copyright">© 2025 Home Mitra. All rights reserved.</p>
+    </div>
+  </footer>
+
+
+  <script src="script.js"></script>
 </body>
+
 </html>
