@@ -1,7 +1,7 @@
 const hamburger = document.querySelector('.hamburger');
     const nav = document.querySelector('nav');
-    const cartIcon = document.getElementById('cart-icon');
-    const cartDropdown = document.getElementById('cart-dropdown');
+    const searchIcon = document.getElementById('search-icon');
+    const searchDropdown = document.getElementById('search-dropdown');
 
     // Toggle mobile menu
     hamburger.addEventListener('click', () => {
@@ -9,13 +9,13 @@ const hamburger = document.querySelector('.hamburger');
     });
 
     // Toggle cart dropdown
-    cartIcon.addEventListener('click', () => {
-      cartDropdown.style.display = cartDropdown.style.display === 'block' ? 'none' : 'block';
+    searchIcon.addEventListener('click', () => {
+      searchDropdown.style.display = searchDropdown.style.display === 'block' ? 'none' : 'block';
     });
 
     // Hide dropdown when clicking outside
     document.addEventListener('click', (e) => {
-      if (!cartDropdown.contains(e.target) && !cartIcon.contains(e.target)) {
-        cartDropdown.style.display = 'none';
+      if (!searchDropdown.contains(e.target) && !searchIcon.contains(e.target)) {
+        searchDropdown.style.display = 'none';
       }
     });
